@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body id='body'>
+    <link rel="stylesheet" href="static/stle/.css">
+    <script src="static/js/script.js" defer>
+    </script>
+    <div class="container">
+        <h2 class="cont">Challenge 1 : Your age in Days </h2>
+        <div class="buttons">
+            <button class="button" id='blue' onclick="ageInDays()">Click me </button>
+            <button class="button" id='red' onclick="reset()">Reset </button>
+        </div>
+        <div id='container' class='container2'>
+        </div>
+    </div>
+
+
+    <div class='container'>
+        <h2 class='cont'>Challeng 2 : Cat Gentrator</h2>
+        <div class="buttons"><button class='button' id='green' onclick="generate()">Genterate</button>
+            <button class='button' id='red' onclick="reset1()">Reset</button></div>
+
+        <div id='container2' class='container2'>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2 class="cont">Challenge 3 : Rock, Paper, Scissor </h2>
+        <div class="container2" id='container3'>
+            <img id="paper" src="static/image/paper.png" onclick="rpsGame(this)">
+            <img id="rock" src="static/image/rock.png" onclick="rpsGame(this)">
+            <img id="scissors" src="static/image/scissors.png" onclick="rpsGame(this) ">
+        </div>
+    </div>
+
+    <div class="container ">
+        <h2 class="cont ">Challenge 4 :Change the Color of All Buttons! </h2>
+        <div class="buttons ">
+            <form class='options' action=''>
+                <select name="Choose Color " id="Choose color " class='button' onchange="changecolor(this)">
+                <option value = 'Random'>Random</option>
+                <option value = 'green'>Green</option>
+                <option value = 'red'>Red</option>
+                <option value = 'yellow'>Yellow</option>
+                <option value = 'blue'>blue</option>
+                <option value = 'Reset'>Reset</option>
+            </select>
+                <button class="button " id='yellow'>Phone</button>
+                <button class="button " id='red'>Message</button>
+                <button class="button " id='green'>Camera</button>
+                <button class="button " id='blue'>Whatsapp</button>
+            </form>
+        </div>
+    </div>
+</body>
